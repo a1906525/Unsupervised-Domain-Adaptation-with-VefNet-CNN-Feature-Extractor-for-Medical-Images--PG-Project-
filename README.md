@@ -24,7 +24,7 @@ These notebooks implement both source training and domain adaptation using the r
    → Uses the classical VGG-19 architecture.
 
 6. **[`VE_25_(Main)_aka_VefNet.ipynb`](./VE_25_(Main)_aka_VefNet.ipynb)**  
-   → Code for the **proposed VEfNet CNN**, formerly referred to as "VE-25". *Note: internal variables still retain the old name.*
+   → Code for the **proposed VEfNet CNN**, former working title was "VE-25". *Note: internal functions still retain the old name.*
 
 ---
 
