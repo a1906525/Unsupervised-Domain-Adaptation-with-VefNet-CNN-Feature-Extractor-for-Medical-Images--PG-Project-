@@ -9,22 +9,22 @@ This GitHub repository showcases source pretraining and domain adaptation experi
 These notebooks implement both source training and domain adaptation using the respective CNNs:
 
 1. **[`EfficientNet-B0(Main).ipynb`](./EfficientNet-B0(Main).ipynb)**  
-   → Implements experiments using EfficientNet-B0.
+   → Experiments using EfficientNet-B0 feature extractor on DANN and CDAN+E.
 
 2. **[`Efn-V2-s(Main).ipynb`](./Efn-V2-s(Main).ipynb)**  
-   → Uses EfficientNet-V2-S as the feature extractor.
+   → Experiments using EfficientNet-V2-S feature extractor on DANN and CDAN+E.
 
 3. **[`MobileNetV2(Main).ipynb`](./MobileNetV2(Main).ipynb)**  
-   → Experiments with MobileNetV2.
+   → Experiments using MobileNet-V2 feature extractor on DANN and CDAN+E.
 
 4. **[`ResNet-50(Main).ipynb`](./ResNet-50(Main).ipynb)**  
-   → Implements experiments using ResNet-50.
+   → Experiments using ResNet-50 feature extractor on DANN and CDAN+E.
 
 5. **[`VGG19(Main).ipynb`](./VGG19(Main).ipynb)**  
-   → Uses the classical VGG-19 architecture.
+   → Experiments using VGG-19 feature extractor on DANN and CDAN+E.
 
 6. **[`VE_25_(Main)_aka_VefNet.ipynb`](./VE_25_(Main)_aka_VefNet.ipynb)**  
-   → Code for the **proposed VEfNet CNN**, former working title was "VE-25". *Note: internal functions still retain the old name.*
+   → Experiments using VefNet feature extractor on DANN and CDAN+E. The former working title for VefNet was "VE-25". *Note: internal functions still retain the VE-25.*
 
 ---
 
@@ -41,7 +41,7 @@ These notebooks implement both source training and domain adaptation using the r
 #### ─ Domain Adaptation:
 - `DANN/` and `CDAN+E/` → Algorithm-specific subfolders:
   - `Confusion Matrices/` → `.png` images across lambdas and top-5 source checkpoints.
-  - `Performance Metrics/` → Excel files and inference time summaries.
+  - `Performance Metrics/` → Excel files for results and inference time summaries.
 - `Source Checkpoints/` → `.pth` files for the top-5 CNN checkpoints used in DA.
 
 ---
@@ -49,8 +49,8 @@ These notebooks implement both source training and domain adaptation using the r
 ### 2. ⚙️ **Code Execution Files**  
 [📎 Click to access → `Executions`](https://drive.google.com/drive/u/1/folders/1lwaAJ4xk0awj1sBNyT4gjSDLr9uHE1H6)
 
-- `CNN(Main).ipynb` → Full training + adaptation pipeline for each CNN.
-- `CNNInftimesfor100imgs.ipynb` → Measures inference latency across 100 images.
+- `CNN(Main).ipynb` → Full training + adaptation pipeline for each CNN on Google Colab.
+- `CNNInftimesfor100imgs.ipynb` → Measures inference latency across 100 images on Google Colab.
 
 ---
 
