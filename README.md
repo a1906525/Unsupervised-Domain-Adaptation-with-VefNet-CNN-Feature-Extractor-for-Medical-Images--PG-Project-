@@ -61,7 +61,7 @@ These notebooks implement both source training and domain adaptation using the r
 - `Set-3/` → Code for Dataset 3 preparation.
 - `Set-4/` → Final dataset (Dataset 4) preparation.
 
-> ⚠️ *Dataset 1 (used in Trimester-2) underwent only size and channel conversions. So, it is ignored here.*
+> ⚠️ *Dataset 1 (used in Trimester-2) underwent only size and channel conversions. So, it is not discussed here.*
 
 ---
 
@@ -69,8 +69,8 @@ These notebooks implement both source training and domain adaptation using the r
 [📎 Click to access → `Data Analysis`](https://drive.google.com/drive/folders/1XbScRt2e3-lQRTLE_oeYbsFaX-mtMrNC?usp=sharing)
 
 - `DANN/` → Top-5 CNN performance evaluations based on DANN results.
-- `CDAN+E/` → Analysis focused on CDAN+E results.
-- `Overall Analysis/` → Trends, dataset selection logic, and comparison with earlier trimester outcomes.
+- `CDAN+E/` → Top-5 CNN performance evaluations based on CDAN+E results.
+- `Overall Analysis/` → Trends, dataset selection logic, and comparison with a hint of earlier trimester outcomes.
 
 ---
 
